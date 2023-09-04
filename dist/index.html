@@ -14,13 +14,26 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="/dist/output.css" rel="stylesheet">
 </head>
+<!-- preloader -->
+<div id="preloader"
+    class="bg-black fixed h-screen top-0 start-0 w-full flex justify-center text-center items-center z-30">
+    <span
+        class="inline-flex text-5xl overflow-y-hidden overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform text-white">
+        Loading...
+    </span>
+    <span
+        class="box-border inline-block w-1 h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform"></span>
+</div>
+<!-- preloader -->
 
 <body class="">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
     <header class="bg h-screen bg-cover bg-center bg-no-repeat">
         <nav class="container px-4 mx-auto flex justify-between py-10">
             <img src="./images/logo.png" alt="logo">
             <ul id="Nav-Bar"
-                class="flex gap-8 z-10 flex-col min-h-screen bg-black items-center justify-center w-full fixed duration-300 top-0 left-[-100%] md:flex-row md:bg-inherit md:w-auto md:min-h-full md:static">
+                class="flex NAV gap-8 z-10 flex-col min-h-screen bg-black items-center justify-center w-full fixed duration-300 top-0 left-[-100%] md:flex-row md:bg-inherit md:w-auto md:min-h-full md:static">
                 <li><a class="text-white" href="">Home</a></li>
                 <li><a class="text-white" href="">About</a></li>
                 <li><a class="text-white" href="">Products</a></li>
@@ -39,8 +52,10 @@
                 <div class="flex">
                     <div class="w-full flex justify-center items-center flex-grow h-screen">
                         <div>
-                            <h1 class="text-3xl md:text-6xl lg:text-9xl font-black text-white font-[Gilroybold]">3D PRODUCT</h1>
-                            <h1 class="text-3xl md:text-6xl lg:text-9xl font-black text-white font-[Gilroybold]">ANIMATION</h1>
+                            <h1 class="text-3xl md:text-6xl lg:text-9xl font-black text-white font-[Gilroybold]">3D
+                                PRODUCT</h1>
+                            <h1 class="text-3xl md:text-6xl lg:text-9xl font-black text-white font-[Gilroybold]">
+                                ANIMATION</h1>
                         </div>
                     </div>
                 </div>
@@ -53,16 +68,17 @@
             <div class="flex flex-col lg:flex-row">
                 <div class="w-full lg:w-[70%]">
                     <div class="flex gap-0 md:gap-1 justify-center lg:flex-col lg:justify-start">
-                       <h1
-                           class="text-[11px] md:text-2xl lg:text-5xl text-centerlg:text-start lg-text-5xl font-black
+                        <h1 class="text-[11px] md:text-2xl lg:text-5xl text-centerlg:text-start lg-text-5xl font-black
                            uppercase font-[Gilroybold]">Nisi et diam euismod suspendisse tristique quis</h1>
                     </div>
                 </div>
                 <div class="w-full lg:w-[30%]">
-                    <p class="text-xs md:text-base text-center lg:text-start font-normal lg:pr-12 pb-5 ">Tincidunt phasellus id
+                    <p class="text-xs md:text-base text-center lg:text-start font-normal lg:pr-12 pb-5 ">Tincidunt
+                        phasellus id
                         imperdiet lorem blandit.Congue donec scelerisque congue pellentesque.</p>
                     <div class="text-center lg:text-start">
-                        <button class="text-xs md:text-base font-bold  py-4 px-8 bg-gradient rounded-full text-white ">Contact
+                        <button class="text-xs md:text-base font-bold py-4 px-8 bg-gradient rounded-full text-white
+                            hover:border-[#FE5000] border-2 hover:bg-none hover:text-[#FE5000] ">Contact
                             Us</button>
                     </div>
                 </div>
@@ -134,8 +150,9 @@
                             imperdiet lorem
                             blandit.
                             Congue donec scelerisque congue pellentesque massa porta vel donec dapibus. </p>\
-                        <button
-                            class="py-4 z-20 px-8 bg-[#FF2F01] rounded-full text-base font-bold text-white lg:mt-8 font-[Gilroylight]">Contact
+                        <button class="py-4 z-20 px-8 bg-[#FF2F01] rounded-full text-base font-bold text-white lg:mt-8
+                            font-[Gilroylight] hover:border-[#FE5000] hover:border-2 hover:bg-black
+                            hover:text-[#FE5000]">Contact
                             Us</button>
                     </div>
                     <img class="absolute bottom-[-150px] right-[50px] " src="./images/svg/Group-9.svg" alt="">
@@ -162,12 +179,14 @@
                             blandit.
                             Congue donec scelerisque congue pellentesque massa porta vel donec dapibus. </p>
                         <button class="py-4 z-20 px-8 bg-[#FF2F01] rounded-full text-base font-bold text-white lg:mt-8
-                            font-[Gilroylight]">Talk To Me</button>
+                            font-[Gilroylight] hover:border-[#FE5000] border-2 hover:bg-[#E5E5E5]
+                            hover:text-[#FE5000]">Talk
+                            To Me</button>
                     </div>
                     <img class="absolute bottom-[-150px] left-[50px] " src="./images/svg/Group-9-1.svg" alt="">
                 </div>
                 <div class="w-full lg:w-[50%]">
-                    <img width="100%" src="/dist/images/grid-img-2.png" alt="">
+                    <img width="100%" src="/dist/images/headphone-gif.gif" alt="">
                 </div>
             </div>
         </div>
@@ -193,7 +212,8 @@
                             blandit.
                             Congue donec scelerisque congue pellentesque massa porta vel donec dapibus. </p>\
                         <button class="py-4 z-20 px-8 bg-[#FF2F01] rounded-full text-base font-bold text-white lg:mt-8
-                            font-[Gilroylight]">Contact with Me</button>
+                            font-[Gilroylight] hover:border-[#FE5000] hover:border-2 hover:bg-black
+                            hover:text-[#FE5000]">Contact with Me</button>
                     </div>
                     <img class="absolute bottom-[-150px] right-[50px] " src="./images/svg/Group-9.svg" alt="">
                 </div>
@@ -252,10 +272,11 @@
                                     placeholder="Enter Email Address" type="text">
                             </div>
                             <button
-                                class="py-[11px] px-6 mr-1 bg-[#FF2F01] rounded-full text-base font-bold text-white  hidden lg:block font-[Gilroylight]  ">SUBMIT</button>
+                                class="py-[11px] px-6 mr-1 bg-[#FF2F01] rounded-full text-base font-bold text-white  hidden lg:block font-[Gilroylight] hover:border-2 hover:border-[#FE5000] hover:bg-white hover:text-[#FE5000]  ">SUBMIT</button>
                         </div>
-                        <button
-                            class="py-3 px-6 mr-1 mt-5 bg-[#FF2F01] rounded-full text-base font-bold text-white lg:hidden font-[Gilroylight]">SUBMIT</button>
+                        <button class="py-3 px-6 mr-1 mt-5 bg-[#FF2F01] rounded-full text-base font-bold text-white
+                            lg:hidden font-[Gilroylight] hover:border-2 hover:border-[#FE5000] hover:bg-white
+                            hover:text-[#FE5000]">SUBMIT</button>
                     </div>
                 </div>
                 <div
@@ -388,6 +409,10 @@
             document.getElementById("Nav-Bar").classList.toggle("left-0")
             document.body.classList.toggle("overflow-hidden")
         }
+        setTimeout(() => {
+            document.getElementById("preloader").classList.toggle("hidden")
+            document.body.classList.remove("overflow-hidden");
+        }, 3000);
     </script>
     <script>
         // slider 3 button
@@ -413,49 +438,75 @@
             }
         });
     </script>
-     <script>
-         $('.slider-3').slick({
+    <script>
+        $('.slider-3').slick({
 
-             dots: false,
-             speed: 1,
-             slidesToShow: 4.2,
-             slidesToScroll: 1,
-             pauseOnHover: true,
-             pauseOnFocus: true,
-             autoPlay: true,
-             autoPlaySpeed: 1000,
-             cssEase: 'linear',
-             responsive: [{
-                     breakpoint: 1200,
-                     settings: {
-                         slidesToShow: 2,
-                         slidesToScroll: 2,
-                         infinite: true,
-                         dots: false
-                     }
-                 },
-                 {
-                     breakpoint: 768,
-                     settings: {
-                         slidesToShow: 1,
-                         slidesToScroll: 2
-                     }
-                 },
-                 {
-                     breakpoint: 576,
-                     settings: {
-                         slidesToShow: 1,
-                         slidesToScroll: 1
-                     }
-                 }
-                 // You can unslick at a given breakpoint now by adding:
-                 // settings: "unslick"
-                 // instead of a settings object
-             ]
-         });
-     </script>
-    
-   
+            dots: false,
+            speed: 1,
+            slidesToShow: 4.2,
+            slidesToScroll: 1,
+            pauseOnHover: true,
+            pauseOnFocus: true,
+            autoPlay: true,
+            autoPlaySpeed: 1000,
+            cssEase: 'linear',
+            responsive: [{
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+    <script>
+        // Get the button:
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+
 </body>
 
 </html>

@@ -547,7 +547,7 @@ video {
 }
 
 .bg {
-  background: url(/dist/images/header-bg.png);
+  background: url(../dist/images/header-bg.png);
 }
 
 .bg-gradient {

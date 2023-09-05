@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Gilroybold';
-    src: url(../dist/font-family/Radomir_Tinkov_-_Gilroy-ExtraBold.otf);
+    src: url(/assets/font-family/Radomir_Tinkov_-_Gilroy-ExtraBold.otf);
 }
 
 @font-face {
     font-family: 'Gilroylight';
-    src: url(../dist/font-family/Radomir_Tinkov_-_Gilroy-Light.otf);
+    src: url(/assets/font-family/Radomir_Tinkov_-_Gilroy-Light.otf);
 }
 
 @tailwind base;

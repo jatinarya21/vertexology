@@ -1229,25 +1229,28 @@ html {
   scroll-behavior: smooth;
 }
 
-.responsive::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -31%;
-  background: #ffff;
-  height: 100%;
-  width: 500px;
-}
-
 .text-shadow {
   text-shadow: 0px 4.909390449523926px 4.909390449523926px rgba(0, 0, 0, 0.25);
 }
 
-@media (min-width:320px) {
-  .responsive::after {
-    left: -452px;
-  }
+.over-slider {
+  z-index: 2;
+}
+
+.slick-list {
+  overflow: visible;
+  padding: 0 20% 0 0;
+  position: relative;
+}
+
+.slick-list::after {
+  content: ' ';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  right: 100%;
+  background-color: white;
 }
 
 .hover\:border-2:hover {

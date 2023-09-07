@@ -109,3 +109,20 @@ html {
     right: 100%;
     background-color: white;
 }
+
+.prev-btn:hover svg circle {
+    fill: #FF2801;
+}
+.prev-btn:hover svg path{
+    fill: white;
+}
+.next-btn:hover svg circle {
+    fill: #FF2801;
+}
+.next-btn:hover svg path{
+    fill: white;
+}
+
+.icons-footer:hover svg circle{
+    fill: black;
+}

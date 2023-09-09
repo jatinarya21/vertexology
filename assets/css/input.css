@@ -126,3 +126,6 @@ html {
 .icons-footer:hover svg circle{
     fill: black;
 }
+*{
+    /* border: 1px solid red; */
+}

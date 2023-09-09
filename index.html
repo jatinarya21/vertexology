@@ -36,7 +36,7 @@
 
 </head>
 <!-- preloader -->
-<div id="preloader"
+<!-- <div id="preloader"
     class="bg-black fixed h-screen top-0 start-0 w-full flex justify-center text-center items-center z-30">
     <span
         class="inline-flex text-5xl overflow-y-hidden overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform text-white">
@@ -44,19 +44,19 @@
     </span>
     <span
         class="box-border inline-block w-1 h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform"></span>
-</div>
+</div> -->
 <!-- preloader -->
 
 <body class="overflow-">
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">
         <img class="w-4 up-arrow" src="assets/images/svg/up-arrow.svg" alt="">
-    </button>
+    </button> -->
 
     <header class="bg h-screen flex flex-col bg-cover bg-center bg-no-repeat">
         <nav class="container px-4 mx-auto flex justify-between py-10">
             <img class="cursor-pointer" src="./assets/images/logo.png " alt="logo">
-            <ul id="Nav-Bar"
-                class="flex NAV gap-8 z-10 flex-col min-h-screen bg-black items-center justify-center w-full fixed duration-300 top-0 left-[-100%] md:flex-row md:bg-inherit md:w-auto md:min-h-full md:static">
+            <ul id="Nav-Bar" class="flex NAV gap-8 z-10 flex-col min-h-screen bg-gradient items-center justify-center w-full fixed
+                duration-300 top-0 left-[-100%] md:flex-row md:bg-none md:w-auto md:min-h-full md:static">
                 <li><a class="text-white Gilroybold " href="#home">Home</a></li>
                 <li><a class="text-white Gilroybold " href="#about">About</a></li>
                 <li><a class="text-white Gilroybold " href="#products">Products</a></li>
@@ -75,12 +75,10 @@
                 <div class="flex">
                     <div class="w-full flex justify-center items-center">
                         <div>
-                            <h1
-                                class="text-5xl md:text-6xl lg:text-9xl font-black text-white font-[Gilroybold] text-shadow">
+                            <h1 class="text-6xl  lg:text-[122px] font-black text-white font-[Gilroybold] text-shadow">
                                 3D
                                 PRODUCT</h1>
-                            <h1
-                                class="text-5xl md:text-6xl lg:text-[137px] font-black text-white font-[Gilroybold] text-shadow">
+                            <h1 class="text-6xl  lg:text-[137px] font-black text-white font-[Gilroybold] text-shadow">
                                 ANIMATION</h1>
                         </div>
                     </div>
@@ -94,13 +92,17 @@
             <div class="flex flex-col lg:flex-row">
                 <div class="w-full lg:w-[70%]">
                     <div class="flex gap-0 md:gap-1 justify-center lg:flex-col lg:justify-start">
-                        <h1 class="text-[11px] md:text-2xl lg:text-5xl text-centerlg:text-start lg-text-5xl font-black
-                           uppercase font-[Gilroybold] text-shadow">Nisi et diam euismod suspendisse tristique quis
+                        <h1 class="text-[24px] md:text-4xl md:pr-24 xl:text-[45px] text-center lg:text-start  font-black
+                           uppercase font-[Gilroybold] text-shadow xl:pr-[240px]">Nisi et diam euismod suspendisse
+                            tristique
+                            quis
                         </h1>
                     </div>
                 </div>
                 <div class="w-full lg:w-[30%]">
-                    <p class="text-xs md:text-base text-center lg:text-start font-normal lg:pr-12 pb-5 ">Tincidunt
+                    <p
+                        class="text-xs md:text-base font-[Gilroylight] text-center lg:text-start font-normal xl:pr-12 pb-5 ">
+                        Tincidunt
                         phasellus id
                         imperdiet lorem blandit.Congue donec scelerisque congue pellentesque.</p>
                     <div class="text-center lg:text-start">
@@ -117,20 +119,8 @@
     <!-- section-4 start -->
     <!-- SLICK SLIDER SECTION -->
     <section id="About" class="overflow-hidden relative pb-28">
-        <svg class="left-6 bottom-10 absolute" width="92" height="71" viewBox="0 0 92 71" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <g opacity="0.5">
-                <path
-                    d="M1 1.71117C5.6875 0.773672 15.625 0.0236721 17.875 4.52367C20.125 9.02367 18.1875 15.7738 16.9375 18.5864C22.25 12.3364 35.6875 1.89886 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV9614"
-                    stroke="#070707" stroke-width="1.54167" stroke-linecap="round" />
-                <path d="M61 23.2739C64.4375 19.5239 72.0625 11.8364 75.0625 11.0864" stroke="#070707"
-                    stroke-width="1.54167" stroke-linecap="round" />
-                <path d="M63.8125 52.3364C66.625 50.1489 73.375 45.7739 77.875 45.7739" stroke="#070707"
-                    stroke-width="1.54167" stroke-linecap="round" />
-                <path d="M60.0625 63.5864C67.25 64.2114 83.5 66.3989 91 70.1489" stroke="#070707" stroke-width="1.54167"
-                    stroke-linecap="round" />
-            </g>
-        </svg>
+        <img height="" src="./assets/images/svg/Group-10.svg"
+            class="absolute xl:left-0 xl:bottom-1 left-[15px] bottom-[15px]" alt="">
         <div class="container mx-auto px-4 z-10 relative">
             <div class="flex flex-wrap">
                 <div class="w-full lg:w-[50%]">
@@ -138,9 +128,9 @@
                         class="font-[Gilroybold] text-3xl sm:text-4xl md:text-5xl lg:text-6xl   2xl:text-7xl uppercase text-shadow">
                         Our Portfolios</h1>
                 </div>
-                <div class="w-full lg:w-[50%] flex justify-end ">
-                    <button class="mt-1 prev-btn arrowleft ">
-                        <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div class="w-full lg:w-[50%] flex justify-end relative ">
+                    <button class="mt-1 prev-btn arrowleft relative top-0 bottom-0 left-[-35%] md:left-28 ">
+                        <svg width="45" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="26.5217" cy="26.5217" r="25.9913" stroke="url(#paint0_linear_1_41)"
                                 stroke-width="1.06087" />
                             <path
@@ -163,8 +153,8 @@
                             </defs>
                         </svg>
                     </button>
-                    <button class="rotate-180 ml-4 next-btn arrowright">
-                        <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <button class="rotate-180 ml-4 next-btn arrowright relative top-0 bottom-o left-[-38%] md:left-[102px]">
+                        <svg width="45" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="26.5217" cy="26.5217" r="25.9913" stroke="url(#paint0_linear_1_41)"
                                 stroke-width="1.06087" />
                             <path
@@ -190,14 +180,14 @@
                 </div>
             </div>
             <div class="responsive mt-4 sm:mt-6 md:mt-10">
-                <img class="w-full ml-10" src="./assets/images/portofolio-1.png" alt="#">
-                <img class="w-full ml-10" src="./assets/images/portofolio-2.png" alt="#">
-                <img class="w-full ml-10" src="./assets/images/portofolio-3.png" alt="#">
-                <img class="w-full ml-10" src="./assets/images/portofolio-4.png" alt="#">
-                <img class="w-full ml-10" src="./assets/images/portofolio-2.png" alt="#">
-                <img class="w-full ml-10" src="./assets/images/portofolio-3.png" alt="#">
-                <img class="w-full ml-10" src="./assets/images/portofolio-1.png" alt="#">
-                <img class="w-full ml-10" src="./assets/images/portofolio-4.png" alt="#">
+                <img class="w-full ml-6" src="./assets/images/portofolio-1.png" alt="#">
+                <img class="w-full ml-6" src="./assets/images/portofolio-2.png" alt="#">
+                <img class="w-full ml-6" src="./assets/images/portofolio-3.png" alt="#">
+                <img class="w-full ml-6" src="./assets/images/portofolio-4.png" alt="#">
+                <img class="w-full ml-6" src="./assets/images/portofolio-2.png" alt="#">
+                <img class="w-full ml-6" src="./assets/images/portofolio-3.png" alt="#">
+                <img class="w-full ml-6" src="./assets/images/portofolio-1.png" alt="#">
+                <img class="w-full ml-6" src="./assets/images/portofolio-4.png" alt="#">
             </div>
         </div>
     </section>
@@ -205,23 +195,23 @@
     <!-- section-5 start -->
     <section id="products" class="bg-black">
         <div class="container-px-4 mx-auto">
-            <div class="flex flex-col-reverse lg:flex-row   items-center">
+            <div class="flex flex-col lg:flex-row   items-center">
                 <div class="w-full lg:w-[50%]">
                     <img width="100%" src="./assets/images/grid-img-1.png" alt="">
                 </div>
                 <div class="w-full lg:w-[50%] relative ">
-                    <div class="lg:pl-16   xl:pl-40 text-center lg:text-start py-24 sm:py-36 lg:py-0">
+                    <div class="lg:pl-16   xl:pl-40 text-center lg:text-start py-4  sm:py-14 lg:py-0">
                         <h1
-                            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-shadow 2xl:text-7xl font-black text-white lg:max-w-[553px] font-[Gilroybold] uppercase">
+                            class=" sm:text-2xl md:text-5xl xl:text-[65px] text-shadow  font-black text-white lg:max-w-[553px] font-[Gilroybold] uppercase">
                             Sed volutpat erat dignissim iaculis
                             aenean</h1>
                         <p
-                            class="text-white text-sm sm:text-base font-normal  lg:max-w-[459px]  py-5 sm:py-7 md:py-10 lg:py-0 font-[Gilroylight] opacity-75">
+                            class="text-white sm:text-xs font-normal text-xs mb-3 md:text-sm xl:text-base  lg:pr-24 xl:pr-28 sm:py-3 sm:px-28 md:py-10 lg:px-0 lg:py-0 font-[Gilroylight] opacity-75">
                             Tincidunt phasellus id
                             imperdiet lorem
                             blandit.
                             Congue donec scelerisque congue pellentesque massa porta vel donec dapibus. </p>\
-                        <button class="py-4 z-20 px-8 bg-[#FF2F01] rounded-full text-base font-bold text-white lg:mt-8
+                        <button class="md:py-4 py-2 px-4 text-xs z-20 md:px-8 bg-[#FF2F01] rounded-full xl:text-base md:text-sm font-bold text-white lg:mt-8
                             font-[Gilroylight] hover:border-[#FE5000] hover:border-2 hover:bg-black
                             hover:text-[#FE5000] shadow-[#fe5000] shadow-md hover:shadow-none">Contact
                             Us</button>
@@ -235,23 +225,21 @@
     <!-- section-6 start -->
     <section class="bg-[#E1E1E1]">
         <div class="2xl::container-px-4 mx-auto ">
-            <div class="flex flex-col lg:flex-row   items-center">
+            <div class="flex flex-col-reverse lg:flex-row   items-center">
 
                 <div class="w-full lg:w-[50%] relative ">
                     <div
-                        class="lg:pl-16  xl:pl-40 text-center 2xl:absolute 2xl:top-[-150px] 2xl:right-5 lg:text-start py-24 sm:py-36 lg:py-0">
-                        <h1
-                            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-shadow 2xl:text-7xl font-black text-black lg:max-w-[553px] font-[Gilroybold] uppercase">
+                        class="lg:pl-16 py-4  xl:pl-40 text-center 2xl:absolute 2xl:top-[-150px] 2xl:right-5 lg:text-start  sm:py-14 lg:py-0">
+                        <h1 class=" sm:text-2xl md:text-5xl xl:text-[65px] lg:pr-16 text-shadow  font-black
+                            text-black font-[Gilroybold] uppercase">
                             At tempor, amet viverra
                             eu Quisque</h1>
-                        <p
-                            class="text-black text-sm sm:text-base font-normal  lg:max-w-[459px]  py-5 sm:py-7 md:py-10 lg:py-0 font-[Gilroylight] me-20 opacity-75">
-                            Tincidunt phasellus id
-                            imperdiet lorem
-                            blandit.
-                            Congue donec scelerisque congue pellentesque massa porta vel donec dapibus. </p>
+                        <p class="text-black  md:text-sm font-normal text-xs sm:py-3 sm:px-28 lg:px-0 lg:pr-32 md:py-10 lg:py-0
+                            font-[Gilroylight] mb-3 opacity-75">
+                            Faucibus pulvinar enim in sagittis. Aliquam libero dolor iaculis in aliquam. Cursus nibh
+                            enim sed et, mauris morbi. Faucibus viverra et diam sit cursus. Pellentesque posuere. </p>
                         <div>
-                            <button class="py-4 z-20 px-8 bg-[#FF2F01] rounded-full text-base font-bold text-white lg:mt-8
+                            <button class="md:py-4 z-20 md:px-8 py-2 px-4 bg-[#FF2F01] rounded-full text-xs lg:text-base font-bold text-white lg:mt-8
                                     font-[Gilroylight] border-[#fe5000] duration-200 hover:border-[#FE5000] border-2 hover:bg-[#E5E5E5]
                                     hover:text-[#FE5000] shadow-[#fe5000] shadow-md hover:shadow-none  ">Talk
                                 To Me</button>
@@ -270,25 +258,26 @@
     <!-- section-7 start-->
     <section class="bg-black">
         <div class="2xl::container-px-4 mx-auto">
-            <div class="flex flex-col-reverse lg:flex-row items-center">
+            <div class="flex flex-col lg:flex-row items-center">
                 <div class="w-full lg:w-[50%]">
                     <img width="100%" src="./assets/images/grid-img-3.png" alt="">
                 </div>
                 <div class="w-full lg:w-[50%] relative">
-                    <div class="lg:pl-16 xl:pl-40 text-center lg:text-start py-24 sm:py-36 lg:py-0">
-                        <h1
-                            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-shadow 2xl:text-7xl font-black text-white lg:max-w-[553px] font-[Gilroybold] uppercase">
-                            Sed volutpat erat dignissim iaculis
-                            aenean</h1>
-                        <p
-                            class="text-white text-sm sm:text-base font-normal  lg:max-w-[459px]  py-5 sm:py-7 md:py-10 lg:py-0 font-[Gilroylight] opacity-75">
-                            Tincidunt phasellus id
-                            imperdiet lorem
-                            blandit.
-                            Congue donec scelerisque congue pellentesque massa porta vel donec dapibus. </p>\
-                        <button class="py-4 z-20 px-8 bg-[#FF2F01] rounded-full text-base  font-bold text-white lg:mt-8
+                    <div class="lg:pl-16 xl:pl-40 py-4 text-center lg:text-start  sm:py-14 lg:py-0">
+                        <h1 class=" sm:text-2xl md:text-5xl xl:text-[65px] text-shadow  font-black
+                            text-white  font-[Gilroybold] uppercase">
+                            John Smith</h1>
+                        <p class="text-white text-xs md:text-sm  xl:text-base font-normal lg:pr-24 sm:py-3 lg:px-0 sm:px-28 md:py-10 lg:py-0
+                            font-[Gilroylight] opacity-75 mb-3">
+                            Euismod nunc mauris lacinia sapien nulla accumsan condimentum. Lectus vitae tristique tellus
+                            amet quis eu faucibus leo. Dictum mauris ultrices sed urna, eget cras. Nullam egestas eros
+                            senectus et, erat aliquet in. Egestas interdum gravida pellentesque amet, quisque. In quis
+                            vitae lectus aenean congue odio sit semper porta. Pellentesque id tempus, mauris donec
+                            facilisis. </p>\
+                        <button class="md:py-4 z-20 md:px-8 py-2 px-4 bg-[#FF2F01] rounded-full text-xs lg:text-base  font-bold text-white lg:mt-8
                             font-[Gilroylight] hover:border-[#FE5000] hover:border-2 hover:bg-black
-                            hover:text-[#FE5000] shadow-[#fe5000] shadow-md hover:shadow-none">Contact with Me</button>
+                            hover:text-[#FE5000] shadow-[#fe5000] shadow-md hover:shadow-none  ">Contact with
+                            Me</button>
                     </div>
                     <img class="absolute bottom-[-150px] right-[50px] " src="./assets/images/svg/Group-9.svg" alt="">
                 </div>
@@ -315,38 +304,33 @@
                 fill="white" stroke="black" stroke-width="2.84504" />
         </svg>
         <h1
-            class="font-normal text-xl text-[#070707] opacity-70 -rotate-90 absolute left-[-6.75rem] top-2/4 font-[Gilroylight] hidden md:block">
+            class="font-normal text-xl text-[#070707] opacity-70 -rotate-90 absolute left-[-6.75rem] top-2/4 font-[Gilroylight] hidden lg:block">
             Behance / Youtube / LinkedIn</h1>
         <h1
-            class="font-normal text-xl text-[#070707] opacity-70 -rotate-90 absolute right-[-6.75rem] top-2/4 font-[Gilroylight] hidden md:block">
+            class="font-normal text-xl text-[#070707] opacity-70 -rotate-90 absolute right-[-6.75rem] top-2/4 font-[Gilroylight] hidden lg:block">
             Twitter / Facebook / Instagram</h1>
-        <div class="container lg:px-11 2xl:px-20 xl:px-16 px-3 mx-auto pt-10 lg:py-32  conta ">
+        <div class="container lg:px-32 px-4 mx-auto pt-10 lg:py-32  conta ">
             <div class=" flex flex-wrap justify-between  items-center">
                 <div class="w-full lg:w-[70%]  z-10 relative ">
                     <div class="text-center items-center lg:text-start lg:items-start flex flex-col">
                         <img class="mb-5 cursor-pointer" src="./images/logo.png" alt="">
                         <h1
-                            class="text-3xl text-shadow sm:text-4xl md:text-5xl lg:text-6xl  2xl:text-7xl font-black font-[Gilroybold]  uppercase">
-                            Utn vulputate <br>
-                            <span class="block">rutrum bibend puru.</span></h1>
+                            class=" text-shadow text-base sm:text-3xl md:text-5xl xl:text-[65px] font-black font-[Gilroybold]  uppercase">
+                            Utn vulputate
+                            <span class="lg:block">rutrum bibend puru.</span></h1>
                         <p
-                            class=" text-sm sm:text-base font-normal py-4 font-[Gilroylight] text-[#070707] opacity-70 lg:max-w-[633px]">
+                            class="  sm:text-xs xl:text-base font-normal py-4 font-[Gilroylight] text-[#070707] opacity-70 lg:max-w-[633px]">
                             Faucibus pulvinar enim in sagittis. Aliquam libero dolor
                             iaculis in aliquam. Cursus nibh enim sed et, mauris morbi. Faucibus viverra et diam sit
                             cursus.</p>
                         <div
                             class="max-w-[416px] min-h-[51px] rounded-full border border-[#B2B2B2] justify-between items-center flex">
                             <div class="flex items-center">
-                                <svg class="ml-4" width="20" height="19" viewBox="0 0 20 19" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M5.67895 3.57422C5.05029 3.57422 4.4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV18398V5.94458C17.5307 5.31592 17.281 4.71301 16.8365 4.26848C16.3919 3.82395 15.789 3.57422 15.1604 3.57422H5.67895ZM17.5307 7.52916L10.7006 11.2068C10.6142 11.2532 10.5177 11.2776 10.4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV2872 4.00286 14.7317C4.4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV2872 17.5307 13.6843 17.5307 13.0556V7.52916Z"
-                                        fill="#B2B2B2" />
-                                </svg>
+                                <img class="pl-5" src="./assets/images/svg/mail.svg" alt="mail-icon">
                                 <input class="ml-1 outline-none max-w-[80%]" type="email"
                                     placeholder="Enter Email Address">
                             </div>
-                            <button class="py-[11px] px-6 mr-1 bg-[#FF2F01] rounded-full text-base font-bold text-white
+                            <button class="py-[10px] px-8 mr-1 bg-[#FF2F01] rounded-full text-base font-bold text-white
                                 hidden lg:block font-[Gilroylight] hover:border-2 hover:border-[#FE5000]
                                 shadow-[#fe5000] shadow-md hover:shadow-none hover:bg-white  hover:text-[#FE5000]
                                 ">SUBMIT</button>
@@ -357,7 +341,7 @@
                     </div>
                 </div>
                 <div
-                    class="w-full lg:w-[30%] lg:items-end flex lg:flex-col justify-center mt-6 md:mt-0 gap-2 pb-3 lg:gap-5 z-20 relative">
+                    class="w-full lg:w-[30%] lg:items-end flex lg:flex-col justify-center pt-6 md:mt-0 gap-2 pb-3 lg:gap-5 z-20 relative">
                     <img class="icons-footer cursor-pointer" src="./assets/images/svg/icon-ig.svg" alt="">
                     <img class="icons-footer cursor-pointer" src="./assets/images/svg/icon-be.svg" alt="">
                     <img class="icons-footer cursor-pointer" src="./assets/images/svg/icon-yt.svg" alt="">
@@ -398,7 +382,7 @@
         $('.responsive').slick({
             dots: false,
             infinite: true,
-            slidesToShow: 3.10,
+            slidesToShow: 3,
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 1000,
